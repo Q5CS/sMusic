@@ -4,7 +4,7 @@
             <div class="row">
               <div class="col l6 s12">
                 <h5 class="white-text">关于</h5>
-                <p class="grey-text text-lighten-4">泉州五中点歌台是一个开源的点歌程序，你可以在 <a class="grey-text text-lighten-3" href="https://github.com/fly3949/Smusic">Github</a> 上看到它的代码，并且和我们一起完善它。</br>Made with ❤ by <a class="grey-text text-lighten-3" href="https://www.qz5z.tech">泉州五中电研社</a></p>
+                <p class="grey-text text-lighten-4">sMusic 是一个开源的点歌程序，你可以在 <a class="grey-text text-lighten-3" href="https://github.com/fly3949/Smusic">Github</a> 上看到它的代码，并且和我们一起完善它。</br>Made with ❤ by <a class="grey-text text-lighten-3" href="https://www.qz5z.tech">泉州五中电研社</a></p>
               </div>
               <div class="col l4 offset-l2 s12">
                 <h5 class="white-text">友情链接</h5>
