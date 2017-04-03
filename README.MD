@@ -23,7 +23,7 @@ sMusic
 `   location / {
         try_files $uri $uri/ /index.php;
     }`
-3. 确保网站 application 目录下的 session 和 config 目录可写，然后访问安装地址（http://example.com/install）
+3. 确保网站 application 目录下的 session 和 config 目录可写，然后访问安装地址：http://example.com/install
 4. 在安装程序里填写相关信息，然后安装
 5. 然后就可以了 √
 
