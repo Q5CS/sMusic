@@ -1,0 +1,16 @@
+.container {
+    padding-top: 30px;
+}
+.player-action {
+    margin-top: 30px;
+}
+.player-info {
+    margin-top: 100px;
+    display: none;
+}
+#player-prev-song-btn {
+    display: none;
+}
+#player-next-song-btn {
+    display: none;
+}
