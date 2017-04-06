@@ -45,9 +45,11 @@ class AddMusicModel extends CI_Model {
 			$returndata['msg'] = '点歌人信息太长！';
 	    } else {
 			$user = $this->ion_auth->user()->row()->username;
+			$userid = $this->ion_auth->user()->row()->id;
 			$data = array(
 				'musicid' => $musicid,
 				'user' => $user,
+				'userid' => $userid,
 				'name' => $name,
 				'time' => $time,
 				'tittle' => $tittle,

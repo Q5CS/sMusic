@@ -328,7 +328,7 @@ function admin_action() {
 	        }
 	        $('#admin-song-name').html(tittle+' (<a href="http://music.163.com/#/song?id='+musicid+'" target="_blank">'+musicid+'</a>)');
 	        $('#admin-song-user').html(name + '(' + user + ')');
-	        $('#admin-song-userid').html('<a target="_blank" href="https://smusic.qz5z.tech/index.php/auth/edit_user/'+userid+'">'+userid+'</a>');
+	        $('#admin-song-userid').html('<a target="_blank" href="/auth/edit_user/'+userid+'">'+userid+'</a>');
 	        $('#admin-song-time').html(time);
 	        $('#admin-song-ip').html(ip);
 	        $('#admin-song-status').html(statustext);
