@@ -184,7 +184,7 @@ function post_song(id,name) {
     $.post("api/AddMusic/add", { musicid: id, name: name }, function(json) {
         status=json.status;
         console.log('post status:'+status);
-        if(status == 1) {
+        if(status == '1') {
             Materialize.toast('提交成功！刷新页面后即可显示', 4000);
             $('#add-modal').modal('close');
         } else {

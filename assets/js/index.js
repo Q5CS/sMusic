@@ -80,7 +80,7 @@ $('#search-loadmore-btn').click(function() {
 
 var ap=[];
 var total;
-var musicid,user,time;
+var musicid,user,time,statusclass,statustext;
 var song_next = 0,song_step = 5;
 
 function add_to_list() {
@@ -240,7 +240,7 @@ function post_song(id,name) {
         status=json.status;
         msg=json.msg;
         console.log('post status:'+status);
-        if(status == 1) {
+        if(status == '1') {
             Materialize.toast('提交成功！', 4000);
             add_to_list();
             $('#add-modal').modal('close');

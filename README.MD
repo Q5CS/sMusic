@@ -51,26 +51,27 @@ sMusic 使用了以下开源程序：
  - [Meting][5] （网易云音乐 API 模块）
  - [jQuery][6]
  - 强大的前端框架 [Materialize][7]
- - 轻量级前端框架 [Pure.css][8]
- - 炒鸡萌的 HTML5 音频播放器 [APlayer][9]
- - 社会化分享组件 [Share.js][10]
+ - 炒鸡萌的 HTML5 音频播放器 [APlayer][8]
+ - 社会化分享组件 [Share.js][9]
+ - HTML5 向下兼容脚本 [html5shiv.js][10]
+ - 旧版本浏览器升级提示脚本 [iewarning.js][11]
 
 sMusic 参考了以下程序的代码：
- - [smuradio][11] （歌曲状态 div 的样式、搜索歌曲按钮的样式以及安装程序）
+ - [smuradio][12] （歌曲状态 div 的样式、搜索歌曲按钮的样式以及安装程序）
 
 sMusic 使用了以下免费的 api 服务：
- - [LWL api][12]
+ - [LWL API][13]
 
 截图
 --
-![首页][13]
-![点歌界面][14]
-![搜索歌曲][15]
-![用户面板][16]
-![历史歌单][17]
-![后台首页][18]
-![歌曲管理][19]
-![自动播放][20]
+![首页][14]
+![点歌界面][15]
+![搜索歌曲][16]
+![用户面板][17]
+![历史歌单][18]
+![后台首页][19]
+![歌曲管理][20]
+![自动播放][21]
 
 
   [1]: https://www.nginx.com/resources/wiki/start/topics/recipes/codeigniter/
@@ -80,16 +81,17 @@ sMusic 使用了以下免费的 api 服务：
   [5]: https://github.com/metowolf/Meting
   [6]: https://github.com/jquery/jquery
   [7]: https://github.com/Dogfalo/materialize
-  [8]: https://github.com/yahoo/pure
-  [9]: https://github.com/DIYgod/APlayer
-  [10]: https://github.com/overtrue/share.js
-  [11]: https://github.com/AddamsOne/smuradio
-  [12]: https://blog.lwl12.com/?s=API
-  [13]: https://img.cdn.lwl12.com/images/2017/04/03/1060fd0f2e61fd01771964928c1801b2.jpg
-  [14]: https://img.cdn.lwl12.com/images/2017/04/03/418acf632578b781e6d91e2f72062734.jpg
-  [15]: https://img.cdn.lwl12.com/images/2017/04/03/ec99a4087e46b025ca9b910770baff6b.jpg
-  [16]: https://img.cdn.lwl12.com/images/2017/04/03/bf68c03cb0e43fa7107930bb6d7e19ce.jpg
-  [17]: https://img.cdn.lwl12.com/images/2017/04/03/c21d782e12a72d40e008fe1483e97f3e.jpg
-  [18]: https://img.cdn.lwl12.com/images/2017/04/03/2955a06220d95d322d895b5f7a3c5318.jpg
-  [19]: https://img.cdn.lwl12.com/images/2017/04/03/aec6b0609605c8753b4a237e5dcafc4f.jpg
-  [20]: https://img.cdn.lwl12.com/images/2017/04/03/9a3c46e2efce526389fab8aadb5cf812.jpg
+  [8]: https://github.com/DIYgod/APlayer
+  [9]: https://github.com/overtrue/share.js
+  [10]: https://github.com/aFarkas/html5shiv
+  [11]: https://github.com/WuYongZhiYong/iewarning
+  [12]: https://github.com/AddamsOne/smuradio
+  [13]: https://blog.lwl12.com/?s=API
+  [14]: https://img.cdn.lwl12.com/images/2017/04/03/1060fd0f2e61fd01771964928c1801b2.jpg
+  [15]: https://img.cdn.lwl12.com/images/2017/04/03/418acf632578b781e6d91e2f72062734.jpg
+  [16]: https://img.cdn.lwl12.com/images/2017/04/03/ec99a4087e46b025ca9b910770baff6b.jpg
+  [17]: https://img.cdn.lwl12.com/images/2017/04/03/bf68c03cb0e43fa7107930bb6d7e19ce.jpg
+  [18]: https://img.cdn.lwl12.com/images/2017/04/03/c21d782e12a72d40e008fe1483e97f3e.jpg
+  [19]: https://img.cdn.lwl12.com/images/2017/04/03/2955a06220d95d322d895b5f7a3c5318.jpg
+  [20]: https://img.cdn.lwl12.com/images/2017/04/03/aec6b0609605c8753b4a237e5dcafc4f.jpg
+  [21]: https://img.cdn.lwl12.com/images/2017/04/03/9a3c46e2efce526389fab8aadb5cf812.jpg

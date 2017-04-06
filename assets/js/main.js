@@ -146,10 +146,11 @@ function login() {
 		$.post("api/user/loggin",{ id:email,pw:pw,rm:rm },function(json){
 			status = json.status;
 			msg = json.msg;
+            console.log(status);
 			if (status == '1') {
 				//Materialize.toast(msg, 4000);
 				$('#login-modal').modal('close');
-				window.location.reload();
+				location.reload();
 				//!Need change
 			} else {
 				Materialize.toast(msg, 4000);
@@ -186,10 +187,11 @@ $('.logout-btn').click(function() {
 	$('.logout-btn').html('请稍候');
 	$.post("api/user/logout",{},function(json){
 		status = json.status;
+        console.log (status = json.status);
 		msg = json.msg;
-		if (status == '1') {
+		if (status === '1') {
 			//Materialize.toast(msg, 4000);
-			window.location.reload();
+			location.reload();
 			//!Need change
 		} else {
 			Materialize.toast(msg, 4000);

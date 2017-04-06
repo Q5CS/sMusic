@@ -10,6 +10,10 @@
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<link href="https://cdn.bootcss.com/materialize/0.98.0/css/materialize.min.css" rel="stylesheet">
     <link href="assets/css/main.css" rel="stylesheet">
+    <!--[if lt IE 10]>
+    <script type="text/javascript" src="https://cdn.bootcss.com/html5shiv/r29/html5.min.js"></script>
+    <script src="http://wuyongzhiyong.b0.upaiyun.com/iedie/v1.2/script.min.js"></script>
+    <![endif]-->
     <?php
       for ($i=1;$i<=count($add_css);$i++) {
         echo '<link href="assets/css/'. $add_css[$i-1] . '" rel="stylesheet">' . PHP_EOL;
