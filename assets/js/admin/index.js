@@ -68,7 +68,7 @@ $("#song-search-name").keydown(function(event){
 });
 $('#search-loadmore-btn').click(function() {
     $('#search-loadmore-btn').show();
-    search_song(search_item_start,search_item_start+5);
+    post_search_songs(search_item_start,search_item_start+5);
     search_item_start += 6;
 });
 
