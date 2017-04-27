@@ -10,13 +10,12 @@ if(is_file("../application/config/smusic.php")){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>安装 - sMusic</title>
-    <link href="https://cdn.bootcss.com/pure/0.6.2/pure-min.css" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/materialize/0.98.0/css/materialize.min.css" rel="stylesheet">
     <style>
       .content {
         margin-left: auto;
         margin-right: auto;
-        padding-left: 1em;
-        padding-right: 1em;
         max-width: 500px;
       }
     </style>
@@ -27,7 +26,7 @@ if(is_file("../application/config/smusic.php")){
         <fieldset>
           <h2>安装sMusic</h2>
           <label>网站名称</label>
-          <input type="text" name="projectname" class="form-control" placeholder="项目名称" required="" autofocus="">
+          <input type="text" name="projectname" class="form-control" placeholder="网站名称" required="" autofocus="">
           <label>网站地址（index.php 所在目录，务必填写协议）</label>
           <input type="text" name="url" class="form-control" placeholder="网站地址" required="" autofocus="" value="http://127.0.0.1/">
           <label>Mysql服务器地址</label>
@@ -38,8 +37,9 @@ if(is_file("../application/config/smusic.php")){
           <input type="password" name="dbpasswd" class="form-control" placeholder="Mysql密码">
           <label>Mysql数据库名</label>
           <input type="text" name="dbname" class="form-control" placeholder="Mysql数据库名" required="">
-          <button class="pure-button pure-button-primary" type="submit">开始安装</button>
+          <button class="waves-effect waves-light btn" type="submit">开始安装</button>
         </fieldset>
       </form>
     </div>
-</body></html>
+</body>
+</html>
