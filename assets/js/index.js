@@ -66,11 +66,14 @@ function search_song() {
 }
 
 $('#song-search-submit-btn').click(function() {
+    search_item_start = 0;
     search_song();
 });
 $("#song-search-name").keydown(function(event){  
-    if(event.which == "13")      
+    if(event.which == "13") {
+        search_item_start = 0;  
         search_song();
+    }
 });
 $('#search-loadmore-btn').click(function() {
     $('#search-loadmore-btn').show();

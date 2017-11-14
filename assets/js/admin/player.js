@@ -8,7 +8,7 @@ function finish_play() {
     $('#player-prev-song-btn').hide();
     $('#player-next-song-btn').hide();
 }
-function add_song() {
+function add_song(num) {
     $.getJSON('/admin/view/1/' + num + '/0/ASC', function(json){
         id=json.music_item[0].id;
         musicid=json.music_item[0].musicid;
@@ -60,7 +60,7 @@ function add_song() {
             $('#next-song-name').html(next_tittle);
         }
     });
-    /*if (num>=1) {
+    if (num>1) {
         $.getJSON('/admin/view/1/' + (num-1) + '/0/ASC', function(json){
             //获取上一首歌曲信息
             prev_tittle=json.music_item[0].tittle;
@@ -68,15 +68,15 @@ function add_song() {
         });
     } else {
         $('#prev-song-name').html('这是第一首歌呀');
-    }*/
+    }
 }
-function play() {
+function play(num) {
     var myDate = new Date();
     current_time = myDate.getTime();
     if (current_time >= stop_time && playing) {
         finish_play();
     } else {
-        add_song();
+        add_song(num);
         playing = true;
         $('#player-set-time-btn').html('加时');
     }
@@ -103,9 +103,9 @@ $('#player-set-time-btn').click(function() {
 });
 $('#player-next-song-btn').click(function() {
     num++;
-    play();
+    play(num);
 });
 $('#player-prev-song-btn').click(function() {
     num--;
-    play();
+    play(num);
 });
